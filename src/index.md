@@ -423,8 +423,6 @@ INNER JOIN tax_type ON tax_payment.tax_type_id = tax_type.tax_type_id
 
 ## Контакты:
 
-email: dark.dreamflyer@gmail.com
-
-[github](https://github.com/darklab8/darklab_article_documentation_as_a_code)
-
-license: MIT
+- [email: dark.dreamflyer@gmail.com](mailto:dark.dreamflyer@gmail.com)
+- [github](https://github.com/darklab8/darklab_article_documentation_as_a_code)
+- [license: MIT](https://github.com/darklab8/darklab_article_documentation_as_a_code/blob/master/LICENSE)
