@@ -1,5 +1,7 @@
 # Documentation as a code
 
+![](index_assets/into_image.jpg)
+
 ## Технологии
 
 - [git](https://git-scm.com/downloads) (Github/Gitlab) (Для version controlling)
