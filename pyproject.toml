@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "darklab-article-documention-as-a-code"
+version = "0.1.0"
+description = "Article about documenting as a code"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "darklab_article_documention_as_a_code"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.4.2"
+pymdown-extensions = "^9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
