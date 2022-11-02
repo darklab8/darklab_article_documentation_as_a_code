@@ -36,7 +36,7 @@ jobs:
       # - name: tar build
       #   run: >
       #     tar -zcvf ${{ runner.temp }}/github_pages site/
-      - uses: actions/upload-artifact@main
+      - uses: actions/upload-pages-artifact@v1
         with:
           name: github-pages
           path: ./site
