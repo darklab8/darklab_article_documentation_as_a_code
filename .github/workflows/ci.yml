@@ -9,6 +9,12 @@ jobs:
   github-pages:
     name: Github Pages
     runs-on: ubuntu-22.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out source repository
         uses: actions/checkout@v2
