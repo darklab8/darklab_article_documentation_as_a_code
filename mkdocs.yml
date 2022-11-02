@@ -1,4 +1,5 @@
 site_name: Documentation as a code
+site_description: The guide to handle beraucracy as a developer
 docs_dir: src
 theme:
     name: readthedocs
