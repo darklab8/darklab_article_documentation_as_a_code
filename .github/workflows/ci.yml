@@ -14,7 +14,6 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out source repository
         uses: actions/checkout@v2
@@ -46,6 +45,7 @@ jobs:
           name: github-pages
           path: ${{ runner.temp }}/github_pages
           retention-days: "1"
-      - uses: actions/deploy-pages@v1
+      - name: Deploy to pages
+        uses: actions/deploy-pages@v1
         id: github-pages
 
