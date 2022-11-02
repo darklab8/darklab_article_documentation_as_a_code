@@ -2,8 +2,6 @@
 
 ## Технологии
 
-### Основные
-
 - [git](https://git-scm.com/downloads) (Github/Gitlab) (Для version controlling)
 - [git-crypt](https://dev.to/heroku/how-to-manage-your-secrets-with-git-crypt-56ih) (По умолчанию git не шифрует данные, с данной технологией он хранит в зашифрованном виде на удаленном сервере)
 - [sqlitebrowser](https://sqlitebrowser.org/) (база данных для ведения учета документации и бухгалтерии)

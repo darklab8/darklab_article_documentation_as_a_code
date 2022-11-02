@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Documentation as a code
 docs_dir: src
 theme:
     name: readthedocs
