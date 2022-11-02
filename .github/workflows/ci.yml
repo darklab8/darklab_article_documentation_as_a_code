@@ -32,14 +32,15 @@ jobs:
       - name: Build docs
         run: >
           mkdocs build
-      - name: tar build
-        run: >
-          tar -zcvf ${{ runner.temp }}/github_pages site/
+      # - name: tar build
+      #   run: >
+      #     tar -zcvf ${{ runner.temp }}/github_pages site/
       - uses: actions/upload-artifact@main
         with:
           name: github-pages
-          path: ${{ runner.temp }}/github_pages
+          # path: ${{ runner.temp }}/github_pages
           retention-days: "1"
+          path: ./site
       - name: Deploy to pages
         uses: actions/deploy-pages@v1
         id: deployment
