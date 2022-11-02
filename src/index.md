@@ -134,7 +134,7 @@ P.S. Процесс установки прост для линукса и ма�
 
 
   </div>
- <script src="/mermaid.min.js"></script>
+ <script src="mermaid.min.js"></script>
  <script>mermaid.initialize({startOnLoad:true});
 </script>
 </body>
@@ -220,7 +220,7 @@ INNER JOIN tax_type ON tax_payment.tax_type_id = tax_type.tax_type_id
 
 
   </div>
- <script src="/mermaid.min.js"></script>
+ <script src="mermaid.min.js"></script>
  <script>mermaid.initialize({startOnLoad:true});
 </script>
 </body>
@@ -290,7 +290,7 @@ INNER JOIN tax_type ON tax_payment.tax_type_id = tax_type.tax_type_id
 
 
   </div>
- <script src="/mermaid.min.js"></script>
+ <script src="mermaid.min.js"></script>
  <script>mermaid.initialize({startOnLoad:true});
 </script>
 </body>
@@ -351,7 +351,7 @@ INNER JOIN tax_type ON tax_payment.tax_type_id = tax_type.tax_type_id
       }
 
   </div>
- <script src="/mermaid.min.js"></script>
+ <script src="mermaid.min.js"></script>
  <script>mermaid.initialize({startOnLoad:true});
 </script>
 </body>
