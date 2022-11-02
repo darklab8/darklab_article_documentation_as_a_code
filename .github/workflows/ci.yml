@@ -32,9 +32,6 @@ jobs:
       - name: Build docs
         run: >
           mkdocs build
-      - name: Get tar
-        run: >
-          apt install -y tar
       - name: tar build
         run: >
           tar -c -f -z -v github_pages site
