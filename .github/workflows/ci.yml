@@ -34,7 +34,7 @@ jobs:
           mkdocs build
       - name: tar build
         run: >
-          tar -c -f -z -v github_pages site
+          tar -zcvf github_pages $(pwd)/site
       - uses: actions/upload-artifact@main # or actions/upload-pages-artifact
         with:
           name: github-pages
