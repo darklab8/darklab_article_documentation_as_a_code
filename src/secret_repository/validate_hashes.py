@@ -112,7 +112,7 @@ def main():
 
     zombie_hashes = []
     for file in files:
-        if match := re.search(r"(?P<hash>[a-z,0-9]{16})(\.pdf)",file.name):
+        if match := re.search(r"(?P<hash>[a-z,0-9]{16})(\.|$)",file.name):
             if match.groupdict().get("hash") not in all_hashes:
                 zombie_hashes.append(f"WARNING ZOMBIE HASH: {match} for file {file}")
 
