@@ -6,7 +6,6 @@ from dataclasses import dataclass, field
 from typing import List
 from enum import Enum, auto
 import re
-from sortedcontainers import SortedSet
 
 def get_all_filenames() -> List[Path]:
     files = list(Path(__file__).parent.glob('**/*'))
@@ -80,7 +79,7 @@ def main():
 
     test_results: list[TestResult] = []
 
-    all_hashes = SortedSet()
+    all_hashes = set()
 
     for params in targets_to_validate:
         for hash in get_hashes(params.column_name, params.table_name):
