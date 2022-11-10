@@ -1,4 +1,5 @@
 init:
-	~/.local/bin/poetry run
+	poetry install
+
 dev:
-	~/.local/bin/poetry run -- mkdocs serve
+	poetry run -- mkdocs serve
