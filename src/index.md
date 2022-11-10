@@ -414,6 +414,18 @@ P.S. Все скрипты текущего репозитория вы може
 - `sudo apt install -y pdftk-java` 
   - `install PDF Chain as GUI from ubuntu discovery of apps`
 
+Для написания PDF документах в качестве кода, latex(xelatex-lualtex) стабильный инструмент
+
+- `sudo apt-get install texlive-xetex`
+    - [documentation](https://www.overleaf.com/learn/latex/XeLaTeX)
+    - compile with `xelatex 1.tex`
+- для написания с hot reloading:
+    - `sudo apt-get install -y latexmk`
+    - vscode plugin `Latex Workshop`
+        - View Latex PDF File
+    
+
+
 ### Пригодяться физические сканеры
 
 - я выбрал EPSON DS-310 для многостраничного скана и EPSON Perfection V19 для планшетного скана.
