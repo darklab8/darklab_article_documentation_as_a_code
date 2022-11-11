@@ -423,6 +423,16 @@ P.S. Все скрипты текущего репозитория вы може
     - `sudo apt-get install -y latexmk`
     - vscode plugin `Latex Workshop`
         - View Latex PDF File
+
+Для прикрепления подписи в PDF документы
+
+- xournal
+    - https://askubuntu.com/questions/167274/how-can-i-edit-a-picture-into-an-existing-pdf-file
+    - `sudo apt-get install xournal`
+    - click File>Annotate PDF, choose your PDF file.
+        - Now, go to where you need to add your signature and click Tools>Image (or the "Image" toolbar icon), then click where you want to add the image. An image selection dialog appears, select your image.
+
+
     
 
 
